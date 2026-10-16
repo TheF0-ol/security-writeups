@@ -1,10 +1,10 @@
 ---
 title: "IDOR in cart basket access endpoints"
-slug: "myprotein-idor-basket-access"
+slug: "idor-basket-access"
 authors: ["Shravan Kakkar (TheF0-ol)"]
 date: "2026-10-15"
 tags: ["Web AppSec", "IDOR", "Broken Access Control", "API Testing"]
-summary: "Real-world IDOR in MyProtein cart access: basket ID in request body not validated against authenticated identity. Full PoC, impact, root cause and fix."
+summary: "Real-world IDOR in cart access: basket ID in request body not validated against authenticated identity. Full PoC, impact, root cause and fix."
 ---
 
 ## 1. Overview
@@ -15,9 +15,9 @@ summary: "Real-world IDOR in MyProtein cart access: basket ID in request body no
 
 ## 2. Target details
 
-- Target: www.myprotein.com (Bugcrowd program, Web App, VRT)
+- Target: (Bugcrowd program, Web App, VRT)
 - Vulnerability class: Broken Access Control > IDOR > Modify Sensitive Information (Iterable Object Identifiers)
-- Priority: P2
+- Priority: N/A
 - My setup: Two accounts created for this purpose (Account A and Account B). No real customer data was accessed or modified.
 
 ## 3. My findings
