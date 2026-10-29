@@ -3,7 +3,7 @@ title: "IDOR in chat transcript download endpoint"
 slug: "port-swigger-access-control-idor-chat-transcript"
 authors: ["Shravan Kakkar (TheF0-ol)"]
 date: "2026-10-14"
-tags: ["Active Directory", "VAPT", "Privilege Escalation", "Enumeration"]
+tags: ["IDOR", "Broken Access Control", "PortSwigger", "Web Security"]
 summary: "Solved the PortSwigger Access Control / IDOR Apprentice lab. Chat transcripts were served via predictable filenames with no ownership check. Recovered a plaintext password and logged in as the victim account."
 ---
 
