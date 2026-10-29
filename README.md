@@ -100,4 +100,4 @@ No unauthorized systems were targeted.
 
 **Shravan Kakkar**
 
-Cybersecurity Student | Web & API Security | VAPT | Bug Bounty
+Cybersecurity Student | Web & API Security | VAPT | Lab Practice
