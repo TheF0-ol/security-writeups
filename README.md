@@ -3,101 +3,93 @@
 Hands-on cybersecurity writeups documenting penetration testing,
 vulnerable lab assessments, and security research.
 
-These writeups were performed in intentionally vulnerable or
-controlled environments for educational purposes.
+All testing was performed against intentionally vulnerable machines, CTFs,
+or authorized environments for educational purposes.
 
 ---
 
-## 📚 Writeups
+## Writeups
 
-### 🔴 Kioptrix Level 2
+### PortSwigger: IDOR in Chat Transcripts
+
+**Platform:** PortSwigger Web Security Academy  
+**Difficulty:** Apprentice
+
+**Skills demonstrated:**
+- Broken access control / IDOR testing
+- Burp Suite request tampering
+- Writing up root cause and remediation
+
+[Read Writeup](./portswigger-access-control-idor.md)
+
+---
+
+### Kioptrix Level 2
 
 **Platform:** VulnHub  
 **Difficulty:** Beginner
 
-Attack chain:
-
-Network Enumeration → SQL Injection → Command Injection →
+Attack chain: Network Enumeration → SQL Injection → Command Injection →
 Reverse Shell → Privilege Escalation → Root
 
 **Skills demonstrated:**
 - Nmap enumeration
 - Web application testing
-- SQL Injection
-- Command Injection
-- Reverse Shell
-- Linux Privilege Escalation
-- Vulnerability Research
+- SQL Injection and Command Injection
+- Reverse shell
+- Linux privilege escalation
 
-[Read Writeup](./kioptrix_level_2_writeup.pdf)
+[Read Writeup](./kioptrix-level-2.pdf)
 
 ---
 
-### 🔴 Kioptrix Level 1
+### Kioptrix Level 1
 
 **Platform:** VulnHub  
 **Difficulty:** Beginner
 
-A penetration testing assessment covering reconnaissance,
-service enumeration, vulnerability identification, exploitation,
-and privilege verification.
+Reconnaissance, service enumeration, vulnerability identification,
+exploitation and privilege verification.
 
-**Skills demonstrated:**
-- Network enumeration
-- Service enumeration
-- Vulnerability identification
-- Exploitation
-- Privilege verification
-
-[Read Writeup](./Kioptrix-Level-1.pdf)
+[Read Writeup](./kioptrix-level-1.pdf)
 
 ---
 
-### 🔴 Basic Pentesting 1
+### Basic Pentesting 1
 
 **Platform:** VulnHub  
 **Difficulty:** Beginner
 
-A penetration testing assessment covering network discovery,
-service enumeration, vulnerability research, and exploitation
-of an outdated service.
+Network discovery, service enumeration, vulnerability research and
+exploitation of an outdated service.
 
 **Skills demonstrated:**
-- Network discovery
 - Nmap
-- Service enumeration
 - Searchsploit
 - Metasploit
-- Exploitation
 
-[Read Writeup](./basic%20pentest.pdf)
-
----
-
-## 🎯 What I'm Practicing
-
-- Web Application Security
-- API Security
-- Authentication & Authorization
-- Vulnerability Assessment
-- Network Penetration Testing
-- Linux Privilege Escalation
-- Security Reporting
+[Read Writeup](./basic-pentesting-1.pdf)
 
 ---
 
-## ⚠️ Disclaimer
+## What I'm Practicing
 
-All testing documented in this repository was performed against
-intentionally vulnerable machines, CTFs, or authorized
-environments for educational purposes.
-
-No unauthorized systems were targeted.
+- Web application and API security
+- Authentication and authorization
+- Vulnerability assessment
+- Network penetration testing
+- Linux privilege escalation
+- Security reporting
 
 ---
 
-## 👤 Author
+## Disclaimer
 
-**Shravan Kakkar**
+For education only. Use these techniques only on systems you own or have
+written permission to test.
 
-Cybersecurity Student | Web & API Security | VAPT | Lab Practice
+---
+
+## Author
+
+**Shravan Kakkar** | Cybersecurity Student | Web & API Security | VAPT | Lab Practice
