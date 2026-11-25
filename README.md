@@ -1,11 +1,22 @@
-### Active Directory Enumeration (Home Lab)
+### \### Kerberoasting Attack \& Detection (Home Lab)
 
-**Environment:** Self-built Windows Server 2022 DC + Windows 11 client  
-**Focus:** Domain enumeration as a standard, non-admin user
+### 
 
-**Skills demonstrated:**
-- Active Directory lab setup (forest promotion, domain join)
-- Writing and testing custom enumeration tooling
-- Identifying real misconfigurations (no account lockout policy)
+### \*\*Environment:\*\* Same self-built AD lab as the enumeration write-up  
 
-[Read Writeup](./ad-enumeration-corp-lab.md)
+### \*\*Focus:\*\* Full attack chain (ticket request → crack) plus the matching defender-side log evidence
+
+### 
+
+### \*\*Skills demonstrated:\*\*
+
+### \- Kerberoasting (MITRE ATT\&CK T1558.003)
+
+### \- Using Rubeus and John the Ripper
+
+### \- Correlating attack tool output against real Windows Security event logs
+
+### 
+
+### \[Read Writeup](./kerberoasting-corp-lab.md)
+
